@@ -1,0 +1,107 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 2.32.12"/><title data-react-helmet="true"></title><link rel="icon" href="/favicon-32x32.png?v=f37fffca2fc3d1345e4971eac5c13473" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=f37fffca2fc3d1345e4971eac5c13473"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=f37fffca2fc3d1345e4971eac5c13473"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=f37fffca2fc3d1345e4971eac5c13473"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=f37fffca2fc3d1345e4971eac5c13473"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=f37fffca2fc3d1345e4971eac5c13473"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=f37fffca2fc3d1345e4971eac5c13473"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=f37fffca2fc3d1345e4971eac5c13473"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=f37fffca2fc3d1345e4971eac5c13473"/><link as="script" rel="preload" href="/webpack-runtime-ca847f73c38aef5f95fb.js"/><link as="script" rel="preload" href="/framework-8e528b732ab2eaadb7b7.js"/><link as="script" rel="preload" href="/app-32a5bbb400dd4d88029b.js"/><link as="script" rel="preload" href="/commons-524422039fa46fcb8e7b.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-8a9df96d2c68b34190aa.js"/><link as="fetch" rel="preload" href="/page-data/youtube-awards/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><div class="blog-post" itemscope="" itemType="http://schema.org/Article" style="margin:3rem auto;max-width:600px"><header><h1 itemProp="headline">How YouTube and I built the same thing</h1><p>April 23, 2021</p></header><section itemProp="articleBody"><p>My new year resolution was to have a project that achieves some sort of product-market-fit. I was very eager to make something useful. A decent project.</p>
+<p>I did some prospecting (just like the old days) looking into existing ecosystems. Being a huge YouTube consumer, the creator economy was always interesting for me. For years, YouTubers have been voicing their concerns about the platform shifting its emphasis to longer videos, leaving the shorter, higher quality videos not receiving much ad revenue. My idea was to introduce a per-video "awards" system that would allow fans to 'tip' a video, thus bringing revenue for shorter content. It will show a small badge besides the video, just like awarding a reddit post. And thus was born <a href="https://denzak.onrender.com">Denzak</a>.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAB2HAAAdhwGP5fFlAAAC7ElEQVQoz6WTa0jTYRTG/3mLMsm0TEudNoUoXcvMibKZmmiUYWmkzY0cubJSyXVVWxfKLPpgmreCqJAuH4o+B30QKjTDsKyg3GxhF7pask033a//ZhQRferAw7nwvue8nOd5haKiIgoLC0lJSfknFAoFubm55Ofno1arcd/ZbTDQ1dVFY2MjSqWStLQ0VCoVgs1mww2H04nD4YbjN37WnE4HY2NjjI6OemC328Wak+4HD+jp6WFoaAiTyYTFYkHgP8xutf6Ru1wuhHtvHfQNuzCPg9kBfZ9sDIzYqK+ro1yvY39FGTdu36Hvq5W2qzfZVKhGv6WUzsfP+fbdguXVJyyvR3j2YpB3798jtNwfouPJMKdaL3CgupojB2s5Vn8anWYbktD5hAf40NDWyq2nb8hNX0Nk8BwEQSAjPYMr1zuQxmjRbr6BbFkOZxrPIuww1GJouIRxZxUbk+XkZSazV7MBdZ6GREUOksDpZCviaGo5j379JgrSs/H39kIaHkZ7SxtZa+XU1K4mUxVDU3MLQt4KJdlr1rG1oICsxVLiIueiW5+NKjUH+fLVJEWEEugtUJAaz+asTFbJ4wiZ5kv0vDB6e3tFgr7gsH/Aav3gIU5ISEhCHh9PUuw8gqf5oZRJyVAsQRIVy0rZEjYoZITPmoEyYSnJ8YuYKr4uImgmi6IiMJvMHjIedt8TG496YsHbxxdp9ALmhoTi7ydODp6OTDKbyKAZxITNRhISjGSWP77i3nymeHn2FygOlgQF8HrQLErOyq7tekwDLycbnhMXfq65iaOHjBw31nK4eh+H9hk4ceQg+/fsxlBRjrHmAIaqXVSWl7PHUMVRo5GTh40e3U2IUnn0pE/UpdjN+Q7BLeDxiQkmREx6lwfu2K0rl3jOnf/S2k+9ue3zx4/c7ezkaX8/3V3dDA70I+j1esrKyigtLUVXUoJOV0KJ6DUazV8oLi5Gq9V6vl9FZSXXOi6TsDAWVWISC0WSLra38wN55X8EKaXrkAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Denzak"
+        title="Denzak"
+        src="/static/4cf9c4c5ae0afb57bf5c23c1a878dd02/5a190/Denzak.png"
+        srcset="/static/4cf9c4c5ae0afb57bf5c23c1a878dd02/772e8/Denzak.png 200w,
+/static/4cf9c4c5ae0afb57bf5c23c1a878dd02/e17e5/Denzak.png 400w,
+/static/4cf9c4c5ae0afb57bf5c23c1a878dd02/5a190/Denzak.png 800w,
+/static/4cf9c4c5ae0afb57bf5c23c1a878dd02/c1b63/Denzak.png 1200w,
+/static/4cf9c4c5ae0afb57bf5c23c1a878dd02/29007/Denzak.png 1600w,
+/static/4cf9c4c5ae0afb57bf5c23c1a878dd02/b2313/Denzak.png 2700w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>At first, I went ahead and created a complete YouTube clone focussing on meme channels. Built using Nuxt, Node, Mongo. I tacked on FTP with node to store and stream the video files from a DigitalOcean droplet. Its an MVP after all. This had the complete implementation of the awards system. After initial talks with some Instagram pages, it became clear that achieving a large audience was the number one goal for the creators. Why would they post at my place after all? They'd waste time  It was time to pivot.</p>
+<p>Since my target was the YouTube channels, I got the idea to create a chrome extension that allowed viewers to award YouTube video! This extension inserted the awards just below the video. A popup appears if you click the award video allowing you to choose the award. I even added a random award drop whenever you awarded a video. Just at the start of April, it got accepted in the <a href="https://chrome.google.com/webstore/detail/denzak-award-youtube-vide/bjmbckhgkdddfmflihkcndelgklpeeoi">Chrome Web Store</a>.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACU0lEQVQoz2WSXW/SUBjHC7QMKC+BSmkphRZK6ekLY30DAg7EZE7HcAhbxhK5IJt644XOSGJissQYFxOzC7+C2QfwdvHLGP0ePgWCLv5ykp7T5zxv/+dg2wgpmsbncvkFHMcx/5HJZOA/QqgkSTzPS5IEe1mWMZwgggs2FoT+AY5LE47jiUTi8HDsWqaqIqNatW1b13VsDdzw+wM+nz+wgMA91laCIMhY4uz8RYqiXLduWxbkX9n8gOcQiJNBHwTwTgFIvtzDBaiiXiu9v3jZaVQ1VdU0TS6X187erSARiMdCGOZbR1xnhuKvzve+Xz77Oj9yHGtzswZarWyQAVJ5dfp8oFCv12u32/1+3zRNy7LuAd3uaLg/2D8w2wPTsqFsBaFbzl5vuF8o5JrNJlQG/rUaZECO47Tardbd7c79nV6n71gOqKUi9a9g8Xh8PB7PZrPhYHByfPxwd3djofMyKE4EXY4aVGWBoV3HNXSjkC9gkXA4GotBexRFGbouFUslsagi1HDryWQylUrRqVQ0GouQ5NODR/PT6exoBM4IqaIoYoIgwOcORUEIkBRikSQZiURC4XAiHiuIgijkWZZNp9M3P25+/vr97fq61WpBL+CIKUoFJpbjsnylJqlbsqKUPIpiUbZ0tr7TeDDsquUczWRHTyaXn768ev3Wsh1zC4S0MaFcKksSk6HhETIMm4G1gslmvb2iIMMweL5wsvf4w7vPp8/nKlJ0TfeepyhVBNXkRIXNF7N5kWHZW8+aZTkuC9A0fTaZXF18fDOdNhoujBBG8AcQnmmU50wd3QAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="denzak extension"
+        title="denzak extension"
+        src="/static/99fbf26cad61b9066e5a018ef97f4e9c/5a190/denzak_extension.png"
+        srcset="/static/99fbf26cad61b9066e5a018ef97f4e9c/772e8/denzak_extension.png 200w,
+/static/99fbf26cad61b9066e5a018ef97f4e9c/e17e5/denzak_extension.png 400w,
+/static/99fbf26cad61b9066e5a018ef97f4e9c/5a190/denzak_extension.png 800w,
+/static/99fbf26cad61b9066e5a018ef97f4e9c/c1b63/denzak_extension.png 1200w,
+/static/99fbf26cad61b9066e5a018ef97f4e9c/21b4d/denzak_extension.png 1280w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>I liked this integration and thought it would be a value add. Collaborating with YouTubers would increase usage, as they'd urge fans to hype up the video. I struggled a while getting people's attention despite posting in several Youtuber oriented subreddits and discord servers. It seems like I wasn't solving a pressing need. Should've listened to my thoughts then.</p>
+<p>Days later as a I was leisurely watching videos, My eyes caught onto a similarly placed button.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 15%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABxqEB/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFxABAAMAAAAAAAAAAAAAAAAAAQAQEf/aAAgBAQABPyHWC1//2gAMAwEAAgADAAAAEAAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAERITFBkf/aAAgBAQABPxCJZJzsdvXD/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="applause1"
+        title="applause1"
+        src="/static/f7d9838b1de68e0203ef33a914ded5c1/4b190/applause1.jpg"
+        srcset="/static/f7d9838b1de68e0203ef33a914ded5c1/e07e9/applause1.jpg 200w,
+/static/f7d9838b1de68e0203ef33a914ded5c1/066f9/applause1.jpg 400w,
+/static/f7d9838b1de68e0203ef33a914ded5c1/4b190/applause1.jpg 800w,
+/static/f7d9838b1de68e0203ef33a914ded5c1/e5166/applause1.jpg 1200w,
+/static/f7d9838b1de68e0203ef33a914ded5c1/eea4a/applause1.jpg 1280w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHhWwvFmQ//xAAZEAABBQAAAAAAAAAAAAAAAAAQAAEDEyP/2gAIAQEAAQUCZZm+Qf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAQEBAAAAAAAAAAAAAAAAABAyAP/aAAgBAQAGPwLQ0f/EABoQAAIDAQEAAAAAAAAAAAAAAAERACExEGH/2gAIAQEAAT8hzc1ZryFOZCQJlz//2gAMAwEAAgADAAAAEJDf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFB/9oACAEDAQE/ENV//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EABoQAQEBAQADAAAAAAAAAAAAAAERACExUWH/2gAIAQEAAT8QmkXuAB9zW6oAXmFEMkTLyQyfXf/Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="applause2"
+        title="applause2"
+        src="/static/b4ae7029fb2d0548fafbc7ecb4c168ce/4b190/applause2.jpg"
+        srcset="/static/b4ae7029fb2d0548fafbc7ecb4c168ce/e07e9/applause2.jpg 200w,
+/static/b4ae7029fb2d0548fafbc7ecb4c168ce/066f9/applause2.jpg 400w,
+/static/b4ae7029fb2d0548fafbc7ecb4c168ce/4b190/applause2.jpg 800w,
+/static/b4ae7029fb2d0548fafbc7ecb4c168ce/e5166/applause2.jpg 1200w,
+/static/b4ae7029fb2d0548fafbc7ecb4c168ce/eea4a/applause2.jpg 1280w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>They have the same idea! Though instead of badges they're highlighting comments, the soul of the idea was there. It was interesting that they began AB testing it right around the time I released Denzak. The idea for "applause" has been in development since <a href="https://www.theverge.com/2020/2/12/21134512/youtube-viewer-applause-clapping-feature-monetization-creators-twitch-donations">last year</a>. Had they I been in their ring earlier, I would've stopped Denzak. Per-video donations are coming, and it is being done by the hosts themselves. No one can compete with the first party.</p>
+<p>My learnings:</p>
+<ol>
+<li>Research the need you are willing to serve in the market. I chose this idea based on the fact that I knew this was going to be implemented. I was surprised that it hadn't been implement by the time I started working on it. As seen above, YouTube seems to agree with me.</li>
+<li>Serve a pressing need. YouTube and every other social media platform has started focussing on short videos. Monetization and discovery for these videos has improved a lot. So my extension wasn't adding much value to the ecosystem. I should solve a bigger problem</li>
+<li>Avoid depending too much on an existing system. The host can always swallow you up by implementing it themselves. They will have troves of User data to base their product decisions on, making them faster and more effective.</li>
+</ol>
+<p>I am still interested in the creator economy, searching for more opportunities. It has fuelled my childhood. Having more internet creators is a net positive. Happy to have a talk if anyone's interested.</p></section><hr/><footer></footer></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/youtube-awards/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-7f1ec355261b605a652a.js"],"app":["/app-32a5bbb400dd4d88029b.js"],"component---src-pages-404-js":["/component---src-pages-404-js-52ea561e51bc52147fe5.js"],"component---src-pages-index-js":["/component---src-pages-index-js-26d98fa3bf3ceff4564e.js"],"component---src-pages-page-2-js":["/component---src-pages-page-2-js-b62b1302708df4128e92.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-8a9df96d2c68b34190aa.js"]};/*]]>*/</script><script src="/polyfill-7f1ec355261b605a652a.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-8a9df96d2c68b34190aa.js" async=""></script><script src="/commons-524422039fa46fcb8e7b.js" async=""></script><script src="/app-32a5bbb400dd4d88029b.js" async=""></script><script src="/framework-8e528b732ab2eaadb7b7.js" async=""></script><script src="/webpack-runtime-ca847f73c38aef5f95fb.js" async=""></script></body></html>
